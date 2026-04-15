@@ -5,7 +5,7 @@
 setopt PROMPT_SUBST
 
 # Detect terminal type for color compatibility
-if [[ "$TERM_PROGRAM" == "Apple_Terminal" ]] || [[ "$TERM" != *"256color"* && "$TERM" != "xterm-kitty" && "$TERM" != "alacritty" ]]; then
+if [[ "$TERM_PROGRAM" == "Apple_Terminal" ]] || [[ "$TERM" != *"256color"* && "$TERM" != "xterm-kitty" && "$TERM" != "alacritty" && "$TERM_PROGRAM" != "ghostty" ]]; then
     # macOS Terminal.app - use basic 16 colors only
     VENV_COLOR='%F{cyan}'
     USER_COLOR='%B%F{red}'

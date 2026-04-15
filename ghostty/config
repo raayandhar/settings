@@ -1,0 +1,49 @@
+# Ghostty Configuration
+# Converted from alacritty.toml
+
+# Font
+font-family = Roboto Mono Regular Medium
+font-size = 11
+
+# Window
+background-opacity = 0.95
+window-padding-x = 10
+window-padding-y = 10
+
+# Cursor
+cursor-style = block
+cursor-style-blink = false
+cursor-color = #dddddd
+cursor-text = #1c1c1c
+# Prevent shell integration from overriding cursor shape at prompt
+shell-integration-features = no-cursor
+
+# Scrolling
+scrollback-limit = 10000
+mouse-scroll-multiplier = 3
+
+# Colors
+background = #1c1c1c
+foreground = #dddddd
+
+# Selection
+selection-background = #2c2c2c
+selection-foreground = #dddddd
+
+# Color palette — normal (0-7) and bright (8-15)
+palette = 0=#1c1c1c
+palette = 1=#e5a3c7
+palette = 2=#a8d5ba
+palette = 3=#e8d5b7
+palette = 4=#b8b0d0
+palette = 5=#d0c4e0
+palette = 6=#c8bcd8
+palette = 7=#dddddd
+palette = 8=#888888
+palette = 9=#f5b3d7
+palette = 10=#b8e5ca
+palette = 11=#f8e5c7
+palette = 12=#c8c0d8
+palette = 13=#e8e0f0
+palette = 14=#d8d0e8
+palette = 15=#ffffff
